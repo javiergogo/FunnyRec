@@ -44,9 +44,9 @@ class PlaySoundsViewController: UIViewController {
         case .Fast:
             playSound(rate: 3.5)
         case .Chipmunk:
-            playSound(rate: 200)
+            playSound(pitch: 1000)
         case .Vader:
-            playSound(rate: -10)
+            playSound(pitch: -1000)
         case .Echo:
             playSound(echo: true)
         case .Reverb:
@@ -75,10 +75,6 @@ class PlaySoundsViewController: UIViewController {
     override func viewWillAppear(animated: Bool) {
         
         configureUI(.NotPlaying)
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
     }
 
     
