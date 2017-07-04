@@ -103,6 +103,7 @@
 					59DC62E71CB8728D001381A0 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = SJK4QJY486;
+						LastSwiftMigration = 0830;
 					};
 				};
 			};
@@ -266,6 +267,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jdev.FunnyRec;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -279,6 +281,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jdev.FunnyRec;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
